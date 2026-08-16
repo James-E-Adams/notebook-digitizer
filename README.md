@@ -4,6 +4,16 @@ Notebook Digitizer is a private, local-first web app for turning photographed no
 
 The interface and filesystem service run on your computer. There is no hosted account or database.
 
+## Screenshots
+
+![Notebook Digitizer review workspace with a synthetic example page](docs/images/review-workspace.jpg)
+
+_Review the source photograph and editable Markdown side by side. The example notebook shown here is entirely synthetic._
+
+![Notebook Digitizer empty-library welcome screen](docs/images/welcome.jpg)
+
+_A fresh local library, ready for its first photographs._
+
 ## What it does
 
 - Imports HEIC, JPEG, PNG, WebP and TIFF photographs.
@@ -27,7 +37,7 @@ The interface and filesystem service run on your computer. There is no hosted ac
 ## Run locally
 
 ```sh
-git clone <repository-url> notebook-digitizer
+git clone https://github.com/James-E-Adams/notebook-digitizer.git
 cd notebook-digitizer
 npm install
 npm run notebook
