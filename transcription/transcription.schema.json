@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "markdown": { "type": "string" },
+    "date_text": { "type": ["string", "null"] },
+    "date_iso": { "type": ["string", "null"] },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "required": ["markdown", "date_text", "date_iso", "warnings"],
+  "additionalProperties": false
+}
